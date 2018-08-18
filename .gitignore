@@ -1,0 +1,8 @@
+Debug/wordsearch
+Release/wordsearch
+*.o
+*.d
+*.swp
+.cproject
+.project
+.settings

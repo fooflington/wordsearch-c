@@ -1,0 +1,19 @@
+Mdir	dir.c	/^int main() {$/
+Mrnd	rnd.c	/^int main() {$/
+Mwordsearch	wordsearch.c	/^int main(int argc, char **argv) {$/
+bounds	grid.h	/^} bounds;$/
+direction	dir.h	/^enum direction {$/
+exitcodes	grid.c	/^enum exitcodes {$/
+free_grid	grid.c	/^void free_grid(char** grid, int height) {$/
+get_bounds	grid.c	/^bounds *get_bounds(int height, int width, enum dir/
+get_direction	dir.c	/^int get_direction(int simple) {$/
+get_random_letter	rnd.c	/^char get_random_letter() {$/
+init_grid	grid.c	/^char **init_grid(char** old, int height, int width/
+letter_frequency	rnd.c	/^struct letter_frequency {$/
+make_grid	grid.c	/^char **make_grid(char **words, int height, int wid/
+move_x	grid.c	/^int move_x(int x, enum direction d) {$/
+move_y	grid.c	/^int move_y(int y, enum direction d) {$/
+place_word	grid.c	/^char** place_word(char *word, char **grid, int hei/
+print_grid	grid.c	/^void print_grid(char** grid, int height) {$/
+random_number	rnd.c	/^int random_number(int min_num, int max_num) {$/
+strtoupper	wordsearch.c	/^#define strtoupper(X) for(char* c=X; *c=toupper(*c/
